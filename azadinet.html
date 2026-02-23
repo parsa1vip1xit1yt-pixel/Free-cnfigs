@@ -558,27 +558,42 @@
     </footer>
 
 <script>
-    const configs = {
+const configs = {
 
-        special_1: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@b.pabloping.cloud:2052?mode=auto&path=%2Fpabloping&security=&encryption=none&host=nlbv1.pabloping.pro&type=xhttp#@VNET_CONNECT 1' },
+special_1: { name: "special 🇩🇪", config: "vless://a7fbea79-18c8-41b8-d519-457d66f2d798@3.65.2.0:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 1" },
+special_2: { name: "special 🇩🇪", config: "vless://907ccc0f-bd56-4726-a877-d72a02125b6c@3.79.255.142:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 2" },
+special_3: { name: "special 🇩🇪", config: "vless://21889ffd-54ee-40f9-e9b0-f1838908579a@18.197.170.161:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 3" },
+special_4: { name: "special 🇩🇪", config: "vless://ec7414ac-4550-414d-afed-5f7ec74ddc32@3.120.177.126:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 4" },
+special_5: { name: "special 🇩🇪", config: "vless://4ca14b7d-7719-4756-df72-905e9cf37a73@18.196.176.150:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 5" },
+special_6: { name: "special 🇩🇪", config: "vless://3ffb5c28-97b3-4056-c72e-ba0de6272c05@3.71.200.254:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 6" },
+special_7: { name: "special 🇩🇪", config: "vless://fca42527-0f5f-4227-9554-ba32702fe90c@3.66.163.128:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 7" },
+special_8: { name: "special 🇩🇪", config: "vless://69c3ec92-9c48-44bc-cfbc-a37ee0c4461a@3.67.71.106:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 8" },
+special_9: { name: "special 🇩🇪", config: "vless://c20adfae-5ae8-4e8b-d34f-d6b425b7e665@3.70.120.79:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 9" },
+special_10:{ name: "special 🇩🇪", config: "vless://a0891e86-ce1f-4e1b-e47c-84c890f1b130@3.121.213.82:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 10" },
+special_11:{ name: "special 🇩🇪", config: "vless://8a192afa-6ae2-4525-dd83-b99150e709a6@3.71.181.229:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 11" },
+special_12:{ name: "special 🇩🇪", config: "vless://8e4e9b67-9294-43dd-e01a-22823d8cefab@3.120.186.36:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 12" },
+special_13:{ name: "special 🇩🇪", config: "vless://c21ba381-5808-4098-b94d-86c468a683d9@18.192.49.87:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 13" },
+special_14:{ name: "special 🇩🇪", config: "vless://9a5a118d-06ab-4064-fe4b-89e47f1368b2@3.122.56.20:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 14" },
+special_15:{ name: "special 🇩🇪", config: "vless://fca42527-0f5f-4227-9554-ba32702fe90c@3.68.213.97:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 15" },
+special_16:{ name: "special 🇩🇪", config: "vless://7396c077-f5cb-4808-84ca-92f268d79b3d@18.195.116.169:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 16" },
+special_17:{ name: "special 🇩🇪", config: "vless://9a887970-9742-48fd-ee77-57735bdc1d49@18.193.115.39:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 17" },
+special_18:{ name: "special 🇩🇪", config: "vless://8a192afa-6ae2-4525-dd83-b99150e709a6@3.65.199.231:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 18" },
+special_19:{ name: "special 🇩🇪", config: "vless://7e015ae5-8173-4fbd-a9a1-a7d5ffa3826f@18.195.245.178:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 19" },
+special_20:{ name: "special 🇩🇪", config: "vless://c39a101c-0a7b-4940-8e6a-f8346d70b24b@91.99.177.240:443?security=&encryption=none&host=zula.ir&headerType=http&type=tcp#@VNET_CONNECT 20" },
+special_21:{ name: "special 🇩🇪", config: "vless://7a5dc2d1-8560-47de-8df9-2a1c5f8fd3ec@3.123.21.181:16763?type=tcp&encryption=none&security=none#@VNET_CONNECT 21" },
+special_22:{ name: "special 🇩🇪", config: "vless://5070f55f-1666-4d55-8817-8200dd4f7ea1@3.79.180.190:28027?type=tcp&encryption=none&security=none#@VNET_CONNECT 22" },
+special_23:{ name: "special 🇩🇪", config: "vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@clyde.ns.cloudflare.com:2096?path=%2F45.76.183.217%3D49292&security=tls&encryption=none&host=hetz.x-smm.com&fp=chrome&type=ws&sni=hetz.x-smm.com#@VNET_CONNECT 23" },
+special_24:{ name: "special 🇩🇪", config: "vless://3f0f36f5-f091-45c5-88c9-4bcc545b922c@norman.ns.cloudflare.com:2096?path=%2F45.76.183.217%3D49292&security=tls&encryption=none&host=hetz.x-smm.com&fp=chrome&type=ws&sni=hetz.x-smm.com#@VNET_CONNECT 24" },
+special_25:{ name: "special 🇩🇪", config: "vless://604b75e0-20fc-4718-e648-37817fcf7bf6@3.76.224.152:52689?type=tcp&encryption=none&security=none#@VNET_CONNECT 25" },
+special_26:{ name: "special 🇩🇪", config: "vless://3655caf2-a709-4e44-f353-773ddda24d7b@3.72.3.97:36512?type=tcp&encryption=none&security=none#@VNET_CONNECT 26" },
+special_27:{ name: "special 🇩🇪", config: "vless://403b2b80-703b-4498-eb92-96be57848d39@3.68.83.161:50256?type=tcp&encryption=none&security=none#@VNET_CONNECT 27" },
+special_28:{ name: "special 🇩🇪", config: "vless://5921e091-fd96-473e-ed51-626e6b61f089@3.65.60.54:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 28" },
+special_29:{ name: "special 🇩🇪", config: "vless://a9d5dd8b-9eb3-4b4f-f69b-90abc8af99c9@3.67.136.9:58445?type=tcp&encryption=none&security=none#@VNET_CONNECT 29" },
+special_30:{ name: "special 🇩🇪", config: "vless://76519b4d-f880-4fa5-e02f-77df232fa79e@3.69.232.133:36062?type=tcp&encryption=none&security=none#@VNET_CONNECT 30" },
+special_31:{ name: "special 🇩🇪", config: "vless://de524de8-06a2-4026-c602-651f0304151b@3.121.230.201:443?type=tcp&encryption=none&security=none#@VNET_CONNECT 31" },
+special_32:{ name: "special 🇩🇪", config: "vless://af07a5ea-e637-41bd-f88f-bc4493b645a2@18.192.122.141:32016?type=tcp&encryption=none&security=none#@VNET_CONNECT 32" }
 
-        special_2: { name: 'special 🇩🇪', config: 'vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?path=%2F&security=tls&encryption=none&insecure=1&host=cd11.thisiswe.uno&fp=chrome&type=ws&allowInsecure=1&sni=cd11.thisiswe.uno#@VNET_CONNECT 2' },
-
-        special_3: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@104.18.32.47:2052?mode=auto&path=%2Fpabloping&security=&encryption=none&host=nlbv1.pabloping.pro&type=xhttp#@VNET_CONNECT 3' },
-
-        special_4: { name: 'special 🇩🇪', config: 'ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SG56SU4xQ0xHR0VoK21EL3V6YmJ2VFFjL0FscStoa21yQzdQbzNENGs0RT0@46.38.143.236:60633#@VNET_CONNECT 4' },
-
-        special_5: { name: 'special 🇩🇪', config: 'vless://96e05c60-cfe5-4365-9c41-b76ec30b4381@104.27.66.214:8443?path=%2Fdownload.php&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=chopin.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=chopin.adaspoloandco.com#@VNET_CONNECT 5' },
-
-        special_6: { name: 'special 🇩🇪', config: 'vless://6bf2c61f-db69-4e00-9dc5-249b83e69d73@94.183.171.3:41314?security=&encryption=none&host=bmw.com&headerType=http&type=tcp#@VNET_CONNECT 6' },
-
-        special_7: { name: 'special 🇩🇪', config: 'vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?path=%2F%3Fed%3D512&security=tls&encryption=none&insecure=1&host=cd11.thisiswe.uno&fp=chrome&type=ws&allowInsecure=1&sni=cd11.thisiswe.uno#@VNET_CONNECT 7' },
-
-        special_8: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@c.pabloping.cloud:2052?mode=auto&path=%2Fpabloping&security=&encryption=none&host=vusp.pabloping.pro&type=xhttp#@VNET_CONNECT 8' },
-
-        special_9: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@172.64.152.170:2052?mode=auto&path=%2Fpabloping&security=&encryption=none&host=updn.pabloping.pro&type=xhttp#@VNET_CONNECT 9' }
-
-    };
+};
 
 
         const faqData = [
@@ -898,6 +913,7 @@
 </html>
 
 �
+
 
 
 
