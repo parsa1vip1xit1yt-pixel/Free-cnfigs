@@ -558,30 +558,28 @@
     </footer>
 
 <script>
-    // --- CONFIGURATIONS ---
     const configs = {
 
-        special_1: { name: 'special 🇩🇪', config: 'vless://d749c2c0-4ba4-45fe-f8f4-2f422d689a21@pxqhkkokwtgf.eu-central-1.clawcloudrun.com:43144?security=tls&encryption=none&insecure=1&headerType=none&type=tcp&allowInsecure=1&flow=xtls-rprx-vision&sni=devblogs.microsoft.com#@VNET_CONNECT 1' },
+        special_1: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@b.pabloping.cloud:2052?mode=auto&path=%2Fpabloping&security=&encryption=none&host=nlbv1.pabloping.pro&type=xhttp#@VNET_CONNECT 1' },
 
-        special_2: { name: 'special 🇩🇪', config: 'socks://MFVDV0x4elc0VDNZbHFYaThnY3JsMFRvOkBWaXBfZnJhZ21lbnRfdjJyYXk@lu-lux.pvdata.host:1080#@VNET_CONNECT 2' },
+        special_2: { name: 'special 🇩🇪', config: 'vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?path=%2F&security=tls&encryption=none&insecure=1&host=cd11.thisiswe.uno&fp=chrome&type=ws&allowInsecure=1&sni=cd11.thisiswe.uno#@VNET_CONNECT 2' },
 
-        special_3: { name: 'special 🇩🇪', config: 'vless://0da640df-a497-4ec2-8705-707c44705f47@fastly3.hamrahflow.ir:443?path=%2F&security=tls&encryption=none&insecure=1&host=Valsiin.com&type=ws&allowInsecure=1&sni=default.ssl.fastly.net#@VNET_CONNECT 3' },
+        special_3: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@104.18.32.47:2052?mode=auto&path=%2Fpabloping&security=&encryption=none&host=nlbv1.pabloping.pro&type=xhttp#@VNET_CONNECT 3' },
 
-        special_4: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@45.130.125.160:2052?mode=auto&path=%2Fpabloping%2F%3FTELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI&security=&encryption=none&host=nlbv1.pabloping.pro&type=xhttp#@VNET_CONNECT 4' },
+        special_4: { name: 'special 🇩🇪', config: 'ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SG56SU4xQ0xHR0VoK21EL3V6YmJ2VFFjL0FscStoa21yQzdQbzNENGs0RT0@46.38.143.236:60633#@VNET_CONNECT 4' },
 
-        special_5: { name: 'special 🇩🇪', config: 'vless://665b51bb-b60b-4653-dab5-cc7fc3125380@37.32.43.252:15717?security=&encryption=none&headerType=none&type=tcp#@VNET_CONNECT 5' },
+        special_5: { name: 'special 🇩🇪', config: 'vless://96e05c60-cfe5-4365-9c41-b76ec30b4381@104.27.66.214:8443?path=%2Fdownload.php&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&host=chopin.adaspoloandco.com&fp=chrome&type=ws&allowInsecure=0&sni=chopin.adaspoloandco.com#@VNET_CONNECT 5' },
 
-        special_6: { name: 'special 🇩🇪', config: 'vless://934d89ea-bf67-43e0-9d82-66f00ebba2f1@amin8.trmas-ps.ir:5367?security=reality&encryption=none&pbk=NK3PvnX2gb2OtICilZNiotEzrx7fauEvr4JNQyWaJkc&headerType=none&fp=firefox&type=tcp&sni=refersion.com#@VNET_CONNECT 6' },
+        special_6: { name: 'special 🇩🇪', config: 'vless://6bf2c61f-db69-4e00-9dc5-249b83e69d73@94.183.171.3:41314?security=&encryption=none&host=bmw.com&headerType=http&type=tcp#@VNET_CONNECT 6' },
 
-        special_7: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@c.pabloping.cloud:2052?mode=auto&path=%2Fpabloping&security=&encryption=none&host=vusp.pabloping.pro&type=xhttp#@VNET_CONNECT 7' },
+        special_7: { name: 'special 🇩🇪', config: 'vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?path=%2F%3Fed%3D512&security=tls&encryption=none&insecure=1&host=cd11.thisiswe.uno&fp=chrome&type=ws&allowInsecure=1&sni=cd11.thisiswe.uno#@VNET_CONNECT 7' },
 
-        special_8: { name: 'special 🇩🇪', config: 'ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SG56SU4xQ0xHR0VoK21EL3V6YmJ2VFFjL0FscStoa21yQzdQbzNENGs0RT0@46.38.143.236:60633#@VNET_CONNECT 8' },
+        special_8: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@c.pabloping.cloud:2052?mode=auto&path=%2Fpabloping&security=&encryption=none&host=vusp.pabloping.pro&type=xhttp#@VNET_CONNECT 8' },
 
-        special_9: { name: 'special 🇩🇪', config: 'vless://6bf2c61f-db69-4e00-9dc5-249b83e69d73@94.183.171.3:41314?security=&encryption=none&host=bmw.com&headerType=http&type=tcp#@VNET_CONNECT 9' },
-
-        special_10: { name: 'special 🇩🇪', config: 'vless://ee9b0614-50ec-41b6-951b-e1d5d755fa4b@glob.thisiswe.uno:2053?path=%2F&security=tls&encryption=none&insecure=1&host=cd11.thisiswe.uno&fp=chrome&type=ws&allowInsecure=1&sni=cd11.thisiswe.uno#@VNET_CONNECT 10' }
+        special_9: { name: 'special 🇩🇪', config: 'vless://2271c50f-ac7a-4d7f-8b04-64085b0daa56@172.64.152.170:2052?mode=auto&path=%2Fpabloping&security=&encryption=none&host=updn.pabloping.pro&type=xhttp#@VNET_CONNECT 9' }
 
     };
+
 
         const faqData = [
             { question: "آیا این سرویس رایگان است؟", answer: "بله، سرویس آزادی‌نت کاملاً رایگان است و همیشه رایگان باقی خواهد ماند. هدف ما فراهم کردن دسترسی آزاد به اینترنت برای همه است." },
@@ -900,5 +898,6 @@
 </html>
 
 �
+
 
 
